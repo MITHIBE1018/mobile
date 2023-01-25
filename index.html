@@ -20,35 +20,62 @@
     <main>
         <section class="main-exchange-container">
             <div class="backgroundImg"></div>
-            <div class="main-exchange-container--title"></div>
+            <div class="main-exchange-container--title">
             <h2>Visibilizamos todas las tasas de cambio.</h2>
             <p>traemos información en tiempo de las casas de cambio y las monedas más importantes del mundo.</p>
             <section class="main-tables-container">
-                <div class="main-currency-table">
-                    <p class="currency-table--title">Monedas</p>
+                <div class="main-currency-table" id="table1">
+                    <p class="currency-table--title">MONEDAS</p>
                     <div class="currency-table--container"><!--va a ser el conetendor de mi tabla -->
                         <table><!--la tabla persei que se convierte en su contenedor-->
                             <!--hace referencia a las filas que van a tener estas tablas --> <tr>
 
                                 <!--hace referencia a la informacion que va a tener esta fila--> <td class="table__top-left"> Bitcoin</td> <!--se coloca guion bajo guion bajo por que significa que cada que voy a tener un modificador especial hay que colocar _ para diferenciar lo quee es un elemento, un bloque y un modificador-->
-                                <td class="table__top-right table__right">$1.96<span></span></td>
+                                <td class="table__top-right table__right">$1.96<span class="down"></span></td>
                             </tr>
                             <tr>
                                 <td class="table__top-left">Ethereum</td>
-                                <td class="table__top-right">$0.07<span>i</span></td>
+                                <td class="table__right">$0.07<span class="up"></span></td>
                             </tr>
                             <tr>
                                 <td class="table__top-left">Ripple</td>
-                                <td class="table__top-right">$2.15<span>i</span></td>
+                                <td class="table__right">$2.15<span class="down"></span></td>
                             </tr>
                             <tr>
-                                <td class="table__buttom-left">Stellar</td>
-                                <td class="table__bottom-right">$4.96</td>
+                                <td class="table_bottom-left">Stellar</td>
+                                <td class="table__bottom-right table_right">$4.96 <span class="down"></span></td>
                             </tr>
                         </table>
                     </div>
                     <div class="currency-table--date">
-                        <p><b>Actualizado:</b> DE OCTUBRE 12:00 P.M.</p>
+                        <p><b>Actualizado:</b>De Octubre 12:00 P.M</p>
+                    </div>
+                </div>
+                <!--TABLA 2 -->
+                <div class="main-currency-table main-commission-table" id="table2">
+                    <p class="currency-table--title commission-table__title">COMISIONES</p>
+                    <div class="currency-table--container">
+                        <table>
+                            <tr>
+                                <td class="table__top-left"> Mithibe</td>
+                                <td class="table__top-right table__right">$18.10.08<span class="down"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__top-left">Sarita</td>
+                                <td class="table__right">$13.12.22<span class="up"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table__top-left">MiGabs</td>
+                                <td class="table__right">$1.05.21<span class="heart"></span></td>
+                            </tr>
+                            <tr>
+                                <td class="table_bottom-left">Thiaguin</td>
+                                <td class="table__bottom-right table_right">$10.06.18 <span class="down"></span></td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="currency-table--date commission-table__date">
+                        <p><b>Actualizado:</b>18 Octubre 12:00 A.M</p>
                     </div>
                 </div>
             </section>
